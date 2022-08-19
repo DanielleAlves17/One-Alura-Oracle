@@ -1,0 +1,177 @@
+body {
+    box-sizing: border-box;
+    width: 1440px;
+    height: 1024px;
+    background: rgb(59, 64, 85);
+
+}
+
+header {
+    
+    display: flex;
+    box-sizing: border-box; 
+    color: black;
+    
+}
+
+.esfinge{
+    padding: 24px;
+    width: 350px;
+    height: 160px;
+    margin-right: 25%;
+}
+
+
+
+.head{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   text-align:center;
+   padding: 24px;   
+    
+}
+
+
+.center{
+
+    display: inline-block;
+    box-sizing: border-box;
+    margin-left: 25%;
+}
+
+.mensagemCodefirst{
+    background-color: whitesmoke;
+    float: left;
+    width: 500px;
+    height: 550px;
+    text-align: center;
+    color: rgb(6, 42, 42); 
+    
+}
+
+#mensagemfirst{
+    width: 300px;
+    height: 300px;
+    margin-top: 60px;
+    padding: 24px;
+    border-radius:  23px;
+    
+}
+
+
+
+.botoes{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    align-content: center;
+    gap: 8px;
+    
+    width: 328px;
+    height: 67px;
+
+    margin-left: auto;
+    
+}
+
+#mensagemCodificada{
+  color: rgb(6, 42, 42);
+  background-color: aliceblue;
+  border-radius: 24px;
+  border-style: dotted;
+  border-color: rgb(6, 42, 42);;
+  font-style: italic;   
+    
+}
+
+#mensagemCodificada:hover{
+    background-color:cadetblue;
+}
+
+#mensagemDecodificada{
+
+    color: rgb(6, 42, 42);
+    background-color: aliceblue;
+    border-radius: 24px;
+    border-style: dotted;
+    border-color: rgb(6, 42, 42);;
+    font-style: italic;
+}
+
+#mensagemDecodificada:hover{
+    background-color:cadetblue;
+}
+
+.mensagemCode{
+background-color: rgb(49, 8, 88);
+float: right;
+width: 500px;
+height: 550px;
+top: 40px;
+text-align: center;
+color: aliceblue;
+}
+
+#second{
+
+    width: 300px;
+    height: 300px;
+    margin-top: 60px;
+    padding: 24px;
+    border-radius: 24px;
+        
+}
+
+#copiar{
+    color: rgb(6, 42, 42);
+    background-color: aliceblue;
+    border-radius: 24px;
+    border-style: dotted;
+    border-color: rgb(6, 42, 42);;
+    font-style: italic;
+}
+
+#copiar:hover{
+    background-color:cadetblue;
+}
+
+footer{
+    clear: both;
+    text-align: center;
+    padding: 12px;
+}
+
+#logo{
+width: 150px;
+}
+
+    
+@media (max-width: 480px) {
+    body {
+       padding: 0;
+       margin: 0;
+        width: 100%;
+    }
+
+    .center{
+
+        margin-left: 0;
+    }
+
+    .mensagemCodefirst {
+                  
+        width: 100%;
+            
+    }
+
+    .mensagemCode{
+       
+        width: 100%;
+        
+        }
+
+
+
+
+       
+}
